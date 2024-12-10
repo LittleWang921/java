@@ -47,7 +47,6 @@ public abstract class AbstractApiClient {
         if (StringUtils.isNullOrEmpty(agent)) {
             throw new IllegalArgumentException("An agent must be provided.");
         }
-
         this.agent = agent.trim();
     }
 
